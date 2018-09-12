@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CarDealership
+namespace Places
 {
     public class Startup
     {
@@ -36,7 +36,6 @@ namespace CarDealership
             {
                 await context.Response.WriteAsync("Hello World!");
             });
-            app.UseDeveloperExceptionPage();
         }
     }
 }
